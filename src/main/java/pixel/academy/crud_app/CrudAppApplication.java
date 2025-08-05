@@ -15,8 +15,7 @@ public class CrudAppApplication {
 
 
      @Bean
-     public CommandLineRunner commandLineRunner( git status
-	 ) {
+     public CommandLineRunner commandLineRunner()  {
 
 		 return runner -> {
 			 System.out.println("Hello world");
